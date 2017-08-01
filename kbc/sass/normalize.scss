@@ -1,0 +1,132 @@
+/*
+KBC NORMALIZE/RESET CSS
+Version: 1.0
+*/
+$zero: 0;
+$percent: 100%;
+$font-size: 62.5%;
+
+* {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    vertical-align: baseline;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    border: $zero;
+    margin: $zero;
+    padding: $zero;
+    outline: $zero;
+    font: inherit;
+    font-family: inherit;
+    font-size: $percent;
+    font-style: inherit;
+    font-weight: inherit;
+    text-decoration: none;
+}
+
+html {
+    font-size: $font-size;
+    height: $percent;
+    width: $percent;
+}
+
+body {
+    position: relative;
+    margin: $zero;
+    height: $percent;
+    width: $percent;
+    font-size: 10px;
+    font-size: 1.0rem;
+    line-height: 1;
+    text-align: inherit;
+    -webkit-text-size-adjust: $percent;
+    -moz-text-size-adjust: $percent;
+    -ms-text-size-adjust: $percent;
+    -o-text-size-adjust: $percent;
+    text-size-adjust: $percent;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section {
+    display: block;
+}
+
+audio,
+canvas,
+video {
+    display: inline-block;
+}
+
+br,
+hr {
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+input,
+select {
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: $zero;
+    empty-cells: show;
+}
+
+
+/* Custom */
+
+::before,
+::after {
+    text-decoration: inherit;
+    /* 1 */
+    vertical-align: inherit;
+    /* 2 */
+}
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+[type="search"] {
+    -webkit-appearance: textfield;
+    /* 1 */
+    outline-offset: -2px;
+    /* 2 */
+}

@@ -1,0 +1,178 @@
+@charset "UTF-8";
+/*
+@package kbc
+=================
+	kbc.css
+=================
+*/
+/**********************
+>>> TABLE OF CONTENTS:
+***********************
+
+a. Imports
+b. Variables
+c. Mixins
+e. Other
+
+1.0 General
+2.0 Accessibility
+3.0 Alignments
+4.0 Clearings
+5.0 Typography
+6.0 Forms
+7.0 Formatting
+8.0 Lists
+9.0 Tables
+10.0 Links
+11.0 Featured Image Hover
+12.0 Navigation
+13.0 Layout
+   13.1 Header
+   13.2 Front Page
+   13.3 Regular Content
+   13.4 Posts
+   13.5 Pages
+   13.6 Footer
+14.0 Comments
+15.0 Widgets
+16.0 Media
+   16.1 Galleries
+17.0 Customizer
+18.0 Media Queries
+19.0 Print
+*****************************/
+/*
+=====================
+	a. Imports
+=====================
+*/
+/*
+KBC NORMALIZE/RESET CSS
+Version: 1.0
+*/
+* {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  text-decoration: none; }
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+  width: 100%; }
+
+body {
+  position: relative;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 10px;
+  font-size: 1.0rem;
+  line-height: 1;
+  text-align: inherit;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -o-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+article,
+aside,
+dialog,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section {
+  display: block; }
+
+audio,
+canvas,
+video {
+  display: inline-block; }
+
+br,
+hr {
+  display: block; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+input,
+select {
+  vertical-align: middle; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show; }
+
+/* Custom */
+::before,
+::after {
+  text-decoration: inherit;
+  /* 1 */
+  vertical-align: inherit;
+  /* 2 */ }
+
+b,
+strong {
+  font-weight: bolder; }
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/*
+=====================
+	b. Variables
+=====================
+*/
+/*
+=======================
+	General Settings
+=======================
+*/
+body {
+  font-family: "游ゴシック体", "游ゴシック", "Yu Gothic", "YuGothic", "メイリオ", "Meiryo", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 2em;
+  line-height: 1.6; }
+
+/*# sourceMappingURL=kbc.css.map */
