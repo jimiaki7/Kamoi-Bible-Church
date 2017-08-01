@@ -3,7 +3,7 @@
 Theme Name: KBC
 Author: Jimi Takaishi
 Description: This is a Word Press Theme for Kamoi Bible Church.
-Version: 1.0 
+Version: 1.0
 Text Domain: kbc
 */
 
@@ -12,7 +12,7 @@ Text Domain: kbc
 >>> TABLE OF CONTENTS:
 ***********************
 
-1.0 General 
+1.0 General
 2.0 Accessibility
 3.0 Alignments
 4.0 Clearings
@@ -40,3 +40,7 @@ Text Domain: kbc
 19.0 Media Queries
 20.0 Print
 ********************************/
+
+* {
+  text-decoration: none;
+}
